@@ -39,5 +39,9 @@ div {
 }
 .description {
   font-style: italic;
-  position: absolute;
+  text-align: center;
+}
+.priority{
+    font-weight: bold;
+    text-align: center;
 }
