@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Task from './components/Task';
+import AddTaskForm from './components/Form';
 
 
 
@@ -27,7 +28,6 @@ function App() {
     setTaskState({tasks});
   } 
 
-
     return (
     <div className="container">
       <h1>Tasky</h1>
@@ -43,6 +43,7 @@ function App() {
       deleteTask = {() => deleteHandler(index)}
     />
   ))} 
+    <AddTaskForm />
     </div>
   );
 
